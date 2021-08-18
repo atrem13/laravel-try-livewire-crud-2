@@ -33,6 +33,7 @@ class Crud extends Component
 
     public function closeModalPopover()
     {
+        $this->resetCreateForm();
         $this->isModalOpen = false;
     }
 
